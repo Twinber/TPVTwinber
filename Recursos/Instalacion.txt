@@ -1,0 +1,24 @@
+REQUISITOS:
+
+- Tener instalado JAVA y configuradas
+	las variables de entorno CLASSPATH
+- Tener instalado MYSQL y configurada
+	en la variable path la ruta a la carpeta bin.
+
+INSTALACION:
+- Configurar ODBC con Nombre ODBCRestaurante
+- Habilitar un usuario con plenos derechos de uso sobre la base de datos restaurante y usar sus datos en la creación del ODBC.
+
+- Ejecutar en la carpeta donde se instaló la aplicacion CreaDB.bat desde linea de comandos con dos paramentros:
+nombredeusario y contraseña:
+Por ejemplo: "CrearDB.bat admin a2b3C4"
+Esto creara la base de datos he introducira los registros.
+NOTA: Si desea modificar los registros edite el fichero
+creacionBD.sql, en el tambien encontrara al final las claves de usuarios por defecto de la aplicación.
+
+EJECUCION:
+Ejecute TPVTwinber.bat
+Las claves por defecto son:
+	CAMARERO: 1234
+	ENCARGADO: 1357	
+	GERENTE: 1928
